@@ -14,7 +14,7 @@ function InputBox({
 
     const id = useId()
   return (
-    <div className={`bg-white p-3 rounded-lg text-sm flex ${className}`}>
+    <div className={`bg-white p-3 rounded-lg flex ${className}`}>
         <div className='w-1-2'>
             <label htmlFor={id}  className='text-black/40 mb-2 inline-block'>{label}</label>
             <input 
